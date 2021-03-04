@@ -13,4 +13,12 @@ data = pd.DataFrame({
     "name":["amy", "john", "bob"],
     "salary":[3000, 5000, 6000]
 })
-print(data)
+# print(data)
+# get columm
+# print(data["salary"])
+# get row
+# print(data)
+# print("=========================")
+print(data.iloc[1])
+
+
